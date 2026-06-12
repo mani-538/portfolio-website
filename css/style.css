@@ -1,0 +1,54 @@
+/* Reset default spacing */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Entire page */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Header */
+
+header {
+    text-align: center;
+    padding: 40px 0;
+}
+
+header h1 {
+    font-size: 40px;
+}
+
+header p {
+    font-size: 20px;
+    color: #666;
+}
+
+/* Sections */
+
+section {
+    background-color: white;
+    margin: 20px 0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* Section titles */
+
+h2 {
+    margin-bottom: 10px;
+}
+
+/* Lists */
+
+ul {
+    padding-left: 20px;
+}
