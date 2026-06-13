@@ -168,3 +168,30 @@ header p {
 #contact a:hover {
     text-decoration: underline;
 }
+
+/* Mobile Responsive Design */
+
+@media (max-width: 768px) {
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    header h1 {
+        font-size: 36px;
+    }
+
+    header p {
+        font-size: 18px;
+    }
+
+    .profile-image {
+        width: 140px;
+        height: 140px;
+    }
+
+    .skills-container {
+        justify-content: center;
+    }
+}
