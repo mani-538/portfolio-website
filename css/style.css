@@ -121,3 +121,9 @@ header p {
     border-radius: 50%;
     margin-bottom: 20px;
 }
+
+/* About Section */
+
+#about p {
+    margin-bottom: 15px;
+}
